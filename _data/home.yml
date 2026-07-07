@@ -58,8 +58,8 @@ clients:
     url: "#"
 
 contact:
-  heading: Contact Us
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  heading: Contact Me
+  subheading: Please reach for for connection or with questions!
   name: Your Name *
   name-required: Please enter your name.
   email: Your Email *
