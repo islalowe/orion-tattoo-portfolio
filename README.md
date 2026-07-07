@@ -27,7 +27,7 @@ https://github.com/y7kim/agency-jekyll-theme has not been updated for more that 
 - Services section with CSS only circle icons by Font Awesome
 - Portfolio grid with modal window popup previews for portfolio item details
 - About section with a responsive timeline, special thanks to Bootsnipp
-- Team member section with circle profile images and social media links
+- Testimonial section with images and reviews
 - Contact form with validation - just add your server url to the `js-url` at `_data/home.yml`
 - Footer with social links, copyright information, and other links
 - SCSS files included for deeper customization options
@@ -146,38 +146,19 @@ about: # About section
   end2: [End bubble second line ]
   end3: [End bubble third line ]
 
-team:
+testimonial:
   heading: [Title] 
   subheading: [Subtitle]
-  members: [List of members]
-    - name: [Member's name]
-      role: [Member's role]
-      img: [Member's image path]
-      social-buttons: [List of Member's Social Media profiles]
-        - icon: [Font Awasome icon code]
-          url: '[Link to Member's Social Media]' 
-        ...
-        - icon: [Font Awasome icon code]
-          url: '[Link to Member's Social Media]'
+  testimonials: [List of testimonials]
+    - name: [Client's name]
+      img: [Client's image path]
+      review: [Client's review]
 
-    - name: [Member's name]
-      role: [Member's role]
-      img: [Member's image path]
-      social-buttons: [List of Member's Social Media profiles]
-        - icon: [Font Awasome icon code]
-          url: '[Link to Member's Social Media]' 
-        ...
-        - icon: [Font Awasome icon code]
-          url: '[Link to Member's Social Media]'
+    - name: [Client's name]
+      img: [Client's image path]
+      review: [Client's review]
 
-  text: [Text under members list] 
-
-clients: # List of clients logos and links
-  - img: [Path to clients logo image]
-    url: '[Link to clients website]'
-  ...
-  - img: [Path to clients logo image]
-    url: '[Link to clients website]'
+  text: [Text under clients list] 
 
 contact: # Contact Section
   heading: [Translateble string]
