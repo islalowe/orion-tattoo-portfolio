@@ -21,6 +21,12 @@
       color: darken($primary, 10%);
     }
   }
+  .navbar-logo {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
   .navbar-nav {
     .nav-item {
       .nav-link {
