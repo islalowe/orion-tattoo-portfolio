@@ -124,19 +124,6 @@ modal: # Modal strings for l10n
 ```
 intro: # Master header text
 
-services: # Services section 
-  heading: [Services Title]
-  subheading: [Services Subtile]
-  service: # List of services
-    - icon: [Font Awasome icon code]
-      heading: [Service Title]
-      text: [Service text]
-    ...
-    - icon: [Font Awasome icon code]
-      heading: [Service Title]
-      text: [Service text]
-
-
 portfolio: # portfolio section
   heading: [Portfolio title]
   subheading: [Portfolio subtitle]

@@ -17,32 +17,6 @@ layout: default
       </div>
     </header>
 
-    <!-- Services -->
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.services.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.services.subheading }}</h3>
-          </div>
-        </div>
-        <div class="row text-center">
-          {%- for service in site.data.home.services.service -%}
-          {% assign ws = '' %}
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="{{ service.icon }} fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">{{ service.heading }}</h4>
-            <p class="text-muted">{{ service.text }}</p>
-          </div>
-          {%- endfor -%}
-        {% assign ws = '' %}
-        </div>
-      </div>
-    </section>
-
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -118,34 +92,23 @@ layout: default
       </div>
     </section>
 
-    <!-- Team -->
-    <section class="bg-light" id="team">
+    <!-- Testimonials -->
+    <section class="bg-light" id="Testimonials">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.home.team.heading }}</h2>
-            <h3 class="section-subheading text-muted">{{ site.data.home.team.subheading }}</h3>
+            <h2 class="section-heading text-uppercase">{{ site.data.home.testimonials.heading }}</h2>
+            <h3 class="section-subheading text-muted">{{ site.data.home.testimonials.subheading }}</h3>
           </div>
         </div>
         <div class="row">
-          {%- for member in site.data.home.team.members -%}
+          {%- for testimonial in site.data.home.testimonials.members -%}
           {% assign ws = '' %}
           <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ member.img }}" alt="">
-              <h4>{{ member.name }}</h4>
-              <p class="text-muted">{{ member.role }}</p>
-              <ul class="list-inline social-buttons">
-                {%- for sm in member.social-buttons -%}
-                {% assign ws = '' %}
-                <li class="list-inline-item">
-                  <a href="{{ sm.url }}">
-                    <i class="{{ sm.icon }}"></i>
-                  </a>
-                </li>
-                {%- endfor -%}
-              {% assign ws = '' %}
-              </ul>
+            <div class="testimonial">
+              <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ testimonial.img }}" alt="">
+              <h4>{{ testimonial.name }}</h4>
+              <p class="text-muted font-italic">&ldquo;{{ testimonial.quote }}&rdquo;</p>
             </div>
           </div>
           {%- endfor -%}
@@ -153,7 +116,7 @@ layout: default
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">{{ site.data.home.team.text }}</p>
+            <p class="large text-muted">{{ site.data.home.testimonials.text }}</p>
           </div>
         </div>
       </div>
