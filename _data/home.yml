@@ -28,9 +28,6 @@ about:
     #   title: Phase Two Expansion
     #   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
 
-  end1: Be Part
-  end2: Of Our
-  end3: Story!
 
 testimonials:
   heading: Testimonials
@@ -48,7 +45,7 @@ testimonials:
       img: img/testimonials/3.jpg
       quote: "another quote"
 
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+  text: I love my clients! I will always work with you to make sure you love your tattoo.
 
 clients:
   - img: img/logos/envato.jpg
