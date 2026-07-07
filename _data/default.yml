@@ -1,16 +1,14 @@
 brand:
-  name: Start Bootstrap
+  name: Orion's Tattoo Portfolio
 menu-string: Menu
 
 nav:
-  - title: Services
-    url: '#services'
   - title: Portfolio
     url: '#portfolio'
   - title: About
     url: '#about'
-  - title: Team
-    url: '#team'
+  - title: Testimonials
+    url: '#testimonials'
   - title: Contact
     url: '#contact'
 
@@ -23,11 +21,7 @@ social-buttons:
     url: '#'
   - icon: fa fa-linkedin
     url: '#'
-
-quicklinks:
-  - title: Privacy Policy
-    url: '#'
-  - title: Terms of Use
+  - icon: fa fa-instagram
     url: '#'
 
 modal:
