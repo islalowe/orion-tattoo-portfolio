@@ -9,24 +9,24 @@ portfolio:
 
 about:
   heading: About
-  subheading: “ I’m Orion, a transgender man and tattoo artist inspired by American traditional tattooing, nature, and timeless artwork that tells a story. I strive to create bold, clean tattoos in a welcoming, judgment-free space where everyone—especially LGBTQ+ clients—can feel comfortable being themselves. Whether it’s a meaningful custom piece or a classic design, my goal is to collaborate with you to create a tattoo you’ll be proud to wear for years to come.”
+  subheading: “ I’m Orion, a transgender man and tattoo artist inspired by American traditional tattooing, nature, and timeless artwork that tells a story. I strive to create bold, clean tattoos in a welcoming, judgment-free space where everyone—especially LGBTQ+ clients-can feel comfortable being themselves. Whether it’s a meaningful custom piece or a classic design, my goal is to collaborate with you to create a tattoo you’ll be proud to wear for years to come.”
   timeline:
     - image: img/about/1.jpg
-      date: 2009-2011
-      title: Our Humble Beginnings
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/2.jpg
-      date: March 2011
-      title: An Agency is Born
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/3.jpg
-      date: December 2012
-      title: Transition to Full Service
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/4.jpg
-      date: July 2014
-      title: Phase Two Expansion
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    #   date: 2009-2011
+    #   title: Our Humble Beginnings
+    #   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    # - image: img/about/2.jpg
+    #   date: March 2011
+    #   title: An Agency is Born
+    #   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    # - image: img/about/3.jpg
+    #   date: December 2012
+    #   title: Transition to Full Service
+    #   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    # - image: img/about/4.jpg
+    #   date: July 2014
+    #   title: Phase Two Expansion
+    #   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
 
   end1: Be Part
   end2: Of Our
@@ -37,15 +37,15 @@ testimonials:
   subheading: Hear from people I have tattooed!
   members:
     - name: Alice
-      img: img/team/1.jpg
+      img: img/testimonials/1.jpg
       quote: "Orion listened to exactly what I wanted and made it even better than I imagined. Cleanest linework I've ever seen, and I love my cute fish."
 
     - name: Another person
-      img: img/team/2.jpg
+      img: img/testimonials/2.jpg
       quote: "another quote"
 
     - name: another person
-      img: img/team/3.jpg
+      img: img/testimonials/3.jpg
       quote: "another quote"
 
   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
