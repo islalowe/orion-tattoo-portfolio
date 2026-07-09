@@ -48,14 +48,7 @@ testimonials:
   text: I love my clients! I will always work with you to make sure you love your tattoo.
 
 clients:
-  - img: img/logos/envato.jpg
-    url: "#"
-  - img: img/logos/designmodo.jpg
-    url: "#"
-  - img: img/logos/themeforest.jpg
-    url: "#"
-  - img: img/logos/creative-market.jpg   
-    url: "#"
+
 
 contact:
   heading: Contact Me
