@@ -5,6 +5,8 @@ menu-string: Menu
 nav:
   - title: Portfolio
     url: '#portfolio'
+  - title: Flash
+    url: '#flash'
   - title: About
     url: '#about'
   - title: Testimonials
