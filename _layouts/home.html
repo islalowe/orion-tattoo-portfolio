@@ -58,31 +58,11 @@ layout: default
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <ul class="timeline">
-              {%- for time in site.data.home.about.timeline -%}
-              {% assign ws = '' %}
-              <li{% cycle '', ' class="timeline-inverted"' %}>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="{{ assets_path }}{{ time.image }}" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>{{ time.date }}</h4>
-                    <h4 class="subheading">{{ time.title }}</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">{{ time.text  }}</p>
-                  </div>
-                </div>
-              </li>
-              {%- endfor -%}
-              {% assign ws = '' %}
-              <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                  <img class="img-fluid about-image" src="{{ assets_path }}{{ site.data.home.about.image }}" alt="">
-                </div>
+            <div class="row">
+              <div class="col-lg-8 mx-auto text-center">
+                <img class="img-fluid about-image" src="{{ assets_path }}{{ site.data.home.about.image }}" alt="">
               </div>
-            </ul>
+            </div>
           </div>
         </div>
       </div>
